@@ -2,8 +2,8 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-const SCRIPT_FILE = 'bot.js';  // Seu arquivo do bot
-const MONITOR_INTERVAL = 30000;  // Verifica a cada 30s
+const SCRIPT_FILE = 'bot.js'; 
+const MONITOR_INTERVAL = 30000;  
 
 // Função helper para delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
