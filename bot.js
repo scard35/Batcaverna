@@ -1,9 +1,9 @@
 
-const roomName = "Arena FPT";
+const roomName = "teste";
 const botName = null;
 const maxPlayers = 6;
-const roomPublic = true;
-const TOKEN = 'token';
+const roomPublic = false;
+const TOKEN = 'thr1.AAAAAGjcph8ykGD5AB3miw.cHvrH6p_T7Q';
 const geo = [{"code": "DE", "lat": 51.1, "lon": 10.4}, {"code": "FR", "lat": 46.2, "lon": 2.2}, {"code": "PL", "lat": 51.9, "lon": 19.1}, {"code": "GB", "lat": 55.3, "lon": -3.4}, {"code": "Br", "lat": -15.7792, "lon": -47.9341}];
 const room = HBInit({ roomName: roomName, maxPlayers: maxPlayers, public: roomPublic, playerName: botName , token: TOKEN });
 
